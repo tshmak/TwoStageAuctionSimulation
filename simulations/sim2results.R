@@ -1,0 +1,7 @@
+Tmisc()
+setwd0("~/Dropbox/Apps/FanoTimMak")
+filename <- Rfilename("sim2results")
+load.results("sim2", path="sim2", prompt=FALSE)
+# load.results(files=paste0("sim2/sim2.", 0:999, ".RData"), prompt=FALSE)
+save(results.table, file=paste0(filename, ".RData"))
+# dir.create("sim2.results")
