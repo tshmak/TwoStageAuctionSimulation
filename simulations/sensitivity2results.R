@@ -1,6 +1,0 @@
-Tmisc()
-setwd0("~/Dropbox/Apps/FanoTimMak")
-filename <- Rfilename("sensitivity2results")
-load.results("sensitivity2", path="sensitivity2", prompt=FALSE, add.filename=TRUE)
-# load.results(files=paste0("sensitivity2/sensitivity2.", 0:1, ".RData"), prompt=FALSE, add.filename=TRUE)
-save(results.table, file=paste0(filename, ".RData"))
