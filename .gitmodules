@@ -1,0 +1,3 @@
+[submodule "flexalloc"]
+	path = flexalloc
+	url = https://github.com/tshmak/flexalloc.git
